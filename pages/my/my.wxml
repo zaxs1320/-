@@ -1,0 +1,13 @@
+<!--pages/my/my.wxml-->
+<import src="item/item-template.wxml" />
+<view class='contain'>
+  <image class='titleimg' src='{{userInfo.avatarUrl}}'></image>
+  <text class='author'>{{userInfo.nickName}}</text>
+</view>
+
+<block wx:for='{{item}}' wx:for-item='case' >
+  <view catchtap='onItemTap' data-itemUrl='{{case.url}}' data-itemTitle='{{case.title}}'>
+    <template is="myitem" data="{{...case}}"/>
+  </view>
+</block>
+
