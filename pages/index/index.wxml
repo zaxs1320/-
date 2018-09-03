@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image src='/image/img.png' class='userinfo-avatar'></image>
+    <text class='userinfo-nickname'>现在去见你</text>
+  </view>
+  <button class='usermotto,user-motto' open-type="getUserInfo" bindgetuserinfo="userInfoHandler">登录</button>
+</view>

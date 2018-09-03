@@ -1,0 +1,40 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  background-color: blueviolet;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+  font-size: 50rpx;
+  font-weight: bolder;
+  font-family: '黑体';
+}
+
+.user-motto {
+  font-family: MicroSoft Yahei;
+  line-height: 80rpx;
+  font-size: 30rpx;
+}
+
+.usermotto{
+
+   border:1px solid #405f80;
+   width: 200rpx;
+   height: 80rpx;
+   border-radius: 5px;
+   text-align: center;
+}
