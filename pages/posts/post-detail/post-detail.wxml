@@ -1,0 +1,54 @@
+<import src="comment/comment-template.wxml" />
+<view class='container1'>
+      <image class='title-image' src='{{image0}}'></image>
+      
+      <view class='title-post'>
+            <image class='post-image' src="{{authorImg}}" ></image>
+            <image class='audio' catchtap='OnAudioTap' src="{{isPlayMusic? '/image/music-stop.png':'/image/music-start.png'}}"></image>
+            <text class='author-text-1'>{{author}}</text>
+            <text class='author-text-2'>发表于</text>
+            <text class='author-text-3'>{{time}}</text>
+      </view>
+
+      <text class='title-text'>{{description}}</text>
+
+      <view class='context'>
+         <view>
+             <button open-type="share" class='share-btn'>
+               <image class='image-2'  src='/image/12-2.png'></image>
+            </button> 
+            <image class='image-1' wx:if="{{collection}}" catchtap='OncollectionTap'  src='/image/collectioned.png'></image>
+            <image class='image-1' wx:else catchtap='OncollectionTap'   src='/image/collection.png' ></image>
+        </view>
+            <view class='horizon'></view>
+      </view>
+
+      <!-- <text class='text-context'>
+          {{textcontent}}
+      <text style='float:right;margin-right:50rpx;'>{{bottomauthor}}</text>
+      </text> -->
+      <view class='text-context'>
+         <wxparser rich-text="{{content}}" />  
+      </view>
+
+      <view style='margin:0 auto 20rpx'>
+          <view class='horizon-bottom'></view>
+          <text class='comment'>评论：</text>
+          <button class='input-text' bindtap="bindButtonTap">留言</button>
+      </view>
+      <view wx:if="{{focus}}">
+        <form bindsubmit="bindFormSubmit">
+          <textarea class='comment-content' rows='15' cols='5' name="textarea" placeholder="请输入您的评论" placeholder-class='comment-placeholder' focus="{{focus}}"></textarea>
+          <button class='BTNsumbit' form-type="submit">提交</button>
+        </form>
+      </view>
+      
+       <block wx:for='{{comment}}' wx:for-item='item' wx:for-index='i'> 
+        <view>
+          <template is="detail-comment" data="{{...item,i}}" />
+        </view>
+       </block>   
+
+
+      
+</view>

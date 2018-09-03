@@ -1,0 +1,158 @@
+@import "comment/comment-template.wxss";
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-image{
+    width: 100%;
+    height: 500rpx;
+}
+
+.title-post{
+    flex-direction: row;
+}
+
+.post-image{
+      width: 60px;
+      height: 60px;
+      margin-left: 8px;
+      margin-top: 15rpx;
+      vertical-align: middle;
+      border-radius: 50%;
+}
+
+.horizon{
+      width: 660rpx;
+      height: 1px;
+      background-color: #e5e5e5;
+      vertical-align: middle;
+      position: relative;
+      top: 46rpx;
+      margin: 0 auto;
+      z-index: -99; 
+}
+
+.horizon-bottom{
+      width: 660rpx;
+      height: 1px;
+      background-color: #e5e5e5;
+      margin: 10rpx auto;
+ 
+}
+
+.comment{
+  font-family: '黑体';
+  font-weight: bolder;
+  font-size: 45rpx;
+  margin-left: 15rpx;
+  margin-bottom: 10rpx;
+}
+
+.comment-placeholder{
+  font-size: 15px;
+}
+
+.comment-content{
+  width: 650rpx;
+  height: 150rpx;
+  border-radius: 20rpx;
+  background-color: #e5e5e5;
+  margin: 10rpx auto 10rpx;
+}
+
+.author-text-1{
+      margin-left: 30rpx;
+      vertical-align: middle;
+      font-size: 30rpx;
+      color: #666;
+}
+
+.author-text-2{
+      margin-left: 20rpx;
+      vertical-align: middle;
+      font-size: 24rpx;
+      color: #999;
+}
+
+.author-text-3{
+      margin-left: 35rpx;
+      vertical-align: middle;
+      font-size: 24rpx;
+      color: #999;
+}
+
+.title-text{
+     margin-top: 10rpx;
+     margin-left: 10px;
+     font-size: 45rpx;
+     font-weight: bold;
+}
+
+.image-1{
+     float: right;
+     margin-right: 30rpx;
+     width: 90rpx;
+     height: 90rpx;
+}
+
+.share-btn{
+    float: right;
+    margin-top: -3rpx;
+    margin-right: 30rpx;
+    line-height: 90rpx;
+    border-radius: 50%;
+    padding: 0; 
+    overflow: visible;
+}
+
+.share-btn::after {
+    border: none;
+}
+
+ .share-btn:hover{
+    background:transparent;  
+} 
+
+.image-2{
+     width: 90rpx;
+     height: 90rpx;
+     vertical-align: middle; 
+}
+
+
+
+.text-context{
+     margin: 35rpx 35rpx 0 30rpx;
+     /* font-size: 35rpx; */
+     font-family: "楷体";
+}
+
+.audio{
+      width: 102rpx;
+      height: 110rpx;
+      position: absolute;
+      top: 180rpx;
+      left:50%;
+      margin-left: -51rpx;
+      opacity: 0.2;
+}
+
+.input-text{
+  float: right;
+  margin-right: 50rpx;
+  font-size: 20rpx;
+  font-family: '楷体';
+  font-weight: bold;
+  border: 2rpx solid black;
+}
+
+.BTNsumbit{
+  float: right;
+  font-family: '楷体';
+  font-weight: bolder;
+  font-size: 20rpx;
+  margin-right: 80rpx;
+  margin-bottom: 5rpx;
+}
+
