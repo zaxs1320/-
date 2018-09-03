@@ -1,0 +1,17 @@
+<template name="postitem">
+      <view class='post-container'>
+        <view>
+            <image class='post-author' src='{{authorImg}}'></image>
+            <text class='post-writer'>{{name}}</text>
+            <text class='post-data'>{{data}}</text>
+        </view>
+        <image class='post-image0' src='{{image0}}'></image>
+        <text class='post-text'>{{context}}</text>
+        <view class='post-like'>
+            <image class='post-image1' src='/image/7.png'></image>
+            <text class='post-text1'>{{text1}}</text>
+            <image class='post-image2' src='/image/8.png'></image>
+            <text class='post-text2'>{{text2}}</text>
+        </view>
+    </view>
+</template>

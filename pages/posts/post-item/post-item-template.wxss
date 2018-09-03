@@ -1,0 +1,81 @@
+.post-container{
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 40rpx;
+     background-color: #fff;
+     border-top: 5px solid #ededed;
+     padding: 20rpx 20rpx 5rpx 20rpx;
+}
+
+.post-author{
+      width: 90rpx;
+      height: 90rpx;
+      vertical-align: middle;
+      border-radius: 50%;
+}
+
+.post-writer{
+      margin-left: 20rpx;
+      margin-bottom: 5rpx;
+      vertical-align: middle;
+      font-size: 35rpx;
+      font-family:"华文楷体";
+      font-weight: bolder;
+}
+
+.post-data{
+      float: right;
+      margin-right: 20rpx;
+      margin-top: 50rpx;
+      font-size: 10rpx;
+}
+
+
+
+.post-text{
+      color: #666;
+      font-size: 26rpx;
+      margin: auto auto 20rpx 20rpx;
+      letter-spacing: 2rpx;
+      line-height: 40rpx;
+}
+
+.post-like{
+      font-size: 13px;
+      flex-direction: row;
+      line-height: 16px;
+      margin-left: 5px;
+}
+
+.post-image{
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+      vertical-align: middle;
+}
+
+.post-image0{
+      width: 100%;
+      margin: 20rpx auto 20rpx auto;
+      mode: center;
+}
+
+.post-image1{
+      width: 16px;
+      height: 16px;
+      margin-left:2px;
+}
+
+.post-image2{
+      width: 16px;
+      height: 16px;
+      margin-left: 10px;
+}
+
+.post-text1{
+      margin-left: 5px;
+}
+
+.post-text2{
+      margin-left: 5px;
+}
