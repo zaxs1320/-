@@ -1,0 +1,53 @@
+.comment-container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(240, 240, 240, .9);
+  margin:30rpx 80rpx 10rpx 10rpx;
+  padding: 5rpx;
+  border-radius: 45rpx;
+  box-shadow: 1px 3px 2px rgba(20, 20,20, .3)
+}
+
+.head-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10rpx; 
+}
+
+.head-box{
+  display: flex;
+  align-items: center;
+}
+
+.head-img{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+
+.nickName{
+  font-size: 35rpx;
+  font-family: '楷体';
+  margin-left: 20rpx;
+}
+
+.lou{
+  margin-right: 20rpx;
+}
+
+.comment-contents{
+  font-size: 25rpx;
+  margin: 5rpx;
+}
+
+.end-box{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comment-data{
+  margin-right: 15rpx;
+  font-size: 15rpx;
+}

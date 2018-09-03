@@ -1,0 +1,19 @@
+<template name='detail-comment'>
+    <view class='comment-container'>
+        <view class='head-container'>
+          <view class='head-box'>
+            <image class='head-img' src='{{avatar}}'></image>
+            <text class='nickName'>{{nickname}}</text>
+          </view>
+            <text class='lou'>{{i+1}}楼</text>
+        </view>
+
+        <view >
+            <text decode='true' class='comment-contents'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{comment_content}}</text>
+        </view>
+
+        <view class='end-box'>
+            <text class='comment-data' >{{data}}</text>
+        </view>
+      </view>
+</template>
