@@ -1,0 +1,22 @@
+.item{
+  border-top: 20rpx solid #ededed;
+  border-bottom: 20rpx solid #ededed;
+  width: 100%;
+  height: 70rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.itemText{
+  font-size: 30rpx;
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+}
+
+.itemImg{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 30rpx;
+  margin-top: 15rpx;
+}

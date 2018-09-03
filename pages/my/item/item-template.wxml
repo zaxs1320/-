@@ -1,0 +1,6 @@
+<template name="myitem">
+  <view class='item'>
+  <text class='itemText'>{{title}}</text>
+  <image class='itemImg' src='../../image/arrow-right.png'></image>
+  </view>
+</template>
