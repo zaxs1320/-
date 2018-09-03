@@ -1,0 +1,9 @@
+@import "../movies/movies-template.wxss";
+.movieGaid-container{
+  margin: 40rpx 0 40rpx 6rpx;
+}
+
+.movieGaid-Single-container{
+  float: right;
+  margin-bottom: 40rpx;
+}
