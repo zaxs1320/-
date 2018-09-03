@@ -1,0 +1,17 @@
+@import "../movie-star/movie-star-template.wxss";
+.movies-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0 22rpx;
+}
+
+.movies-img{
+  width: 200rpx;
+  height: 270rpx;
+  padding-bottom: 20rpx;
+}
+
+.movies-name{
+  margin-bottom: 16rpx;
+  font-size: 24rpx;
+}
