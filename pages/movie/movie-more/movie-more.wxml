@@ -1,0 +1,5 @@
+<!--pages/movie/movie-more/movie-more.wxml-->
+<import src="../movie-gaid/movie-gaid-template.wxml" />
+<view class='moreMovie-container'>
+    <template is="movieGaid-template" data="{{movies}}" />
+</view>
